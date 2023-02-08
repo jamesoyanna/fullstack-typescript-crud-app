@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    background: #fff;
+}
+
+.App {
+    max-width: 728px;
+    margin: 4rem auto;
+}
+
+.App > h1 {
+    text-align: center;
+    margin: 1rem 0;
+    color: #000;
+}
+
+.Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  #034B5B;
+    padding: 0.5rem 1rem;
+    /* border-bottom: 1px solid #333333; */
+-webkit-box-shadow: 1px 0px 4px 2px #b2b4b4; 
+box-shadow: 1px 0px 4px 1px #aeb1b1;
+}
+
+.Card--text h1 {
+    color: #FF6321;
+}
+
+.Card--button button {
+    background: #f5f6f7;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+}
+
+
+.Card--button__delete {
+    border: none;
+    color:  #FF6321;
+}
+.Card--button :hover{
+    background-color:#FF6321 ;
+    color: #fff;
+}
+
+.Card--button__done {
+    border: none;
+    color: #00aa69;
+    margin-right: 1rem;
+}
+
+.Form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #000;
+    margin-bottom: 1rem;
+}
+
+.Form > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form input {
+    background: #f5f6f7;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0.3rem 1rem 0 0;
+}
+
+/* .Form label {
+} */
+
+.Form button {
+    background:  #FF6321;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: rgb(163, 160, 160) !important;
+}
+
+.hide-button {
+    display: none;
+}
